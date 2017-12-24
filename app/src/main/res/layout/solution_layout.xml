@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/solutionimage"
+        android:layout_centerHorizontal="true"
+         />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="PLEASE CLICK TO GET THE RESULT!!!"
+            android:textSize="20dp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="250dp"
+            android:id="@+id/solution_click"
+            android:visibility="gone"/>
+
+        <ProgressBar
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:clickable="false"
+            android:visibility="gone"
+            android:id="@+id/solution_progressbar"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="165dp"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/solution_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="120dp"
+            android:scrollbars="vertical" />
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="bottom">
+           <android.support.design.widget.FloatingActionButton
+               android:layout_width="55dp"
+               android:id="@+id/solution_fab"
+               android:layout_height="55dp"
+               android:layout_gravity="bottom"
+               android:background="@color/turquoise"
+               android:src="@drawable/run"
+               android:layout_alignParentRight="true"
+               android:layout_marginRight="20dp"
+               android:layout_marginBottom="25dp"
+              />
+       </RelativeLayout>
+
+
+
+    </FrameLayout>
+
+</RelativeLayout>

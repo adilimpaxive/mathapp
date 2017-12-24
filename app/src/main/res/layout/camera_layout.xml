@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <com.akhil.akhildixit.picmatrix.Fragments.camera.AutoFitTextureView
+        android:id="@+id/texture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" 
+        />
+
+    <!--<com.akhil.akhildixit.picmatrix.Fragments.camera.TouchView
+        android:id="@+id/left_top_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="100dp"/>
+-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        >
+
+        <com.akhil.akhildixit.picmatrix.Button.FButton
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+        fbutton:buttonColor="@color/concrete"
+        fbutton:shadowColor="@color/orange"
+            android:layout_weight="1"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="0dp"
+            android:text="Picture"
+        fbutton:cornerRadius="2dp"
+            android:id="@+id/picture"
+
+        />
+
+        <com.akhil.akhildixit.picmatrix.Button.FButton
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="crop"
+            fbutton:buttonColor="@color/pumpkin"
+            fbutton:shadowColor="@color/peter_river"
+            fbutton:shadowEnabled="true"
+            fbutton:shadowHeight="0dp"
+            fbutton:cornerRadius="2dp"
+            android:id="@+id/crop"
+
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="bottom"
+            android:id="@+id/linearDynamic"
+            android:visibility="gone"
+            >
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/silver"
+                    android:layout_marginTop="10dp"
+                    android:alpha="0.5"></View>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Wanna see the selected image!!!"
+                    android:layout_marginLeft="5dp"
+                    />
+            <Button
+                android:layout_width="40dp"
+                android:id="@+id/linearDynamicButton"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="320dp"
+                />
+            </FrameLayout>
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/demImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                app:riv_corner_radius="0dp"
+                app:riv_border_width="0dip"
+                app:riv_border_color="#333333"
+                app:riv_mutate_background="true"
+                app:riv_oval="false"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </FrameLayout>
+        <ImageButton
+            android:id="@+id/info"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical|right"
+            android:padding="20dp"
+            android:visibility="gone"
+             />
+
+
+
+</LinearLayout>
+
+
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.akhil.akhildixit.picmatrix.Fragments.camera.Preview
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/preview"/>
+
+    <com.akhil.akhildixit.picmatrix.Fragments.camera.TouchView
+        android:id="@+id/left_top_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+
+    &lt;!&ndash;<ImageView
+        android:id="@+id/startcamerapreview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+&ndash;&gt;
+    <Button
+        android:id="@+id/cameraClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="303dp"
+        android:text="Button" />
+
+</RelativeLayout>-->
+

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/notebook_custom"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="INPUT"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/notebook_input"
+            android:layout_marginLeft="50dp"
+            android:layout_height="wrap_content"
+            android:text="Hello"
+            android:background="#535353"
+            android:textColor="@android:color/white"
+            android:textAlignment="center"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="SOLUTION"
+            android:textColor="#bdc3c7"
+            android:layout_marginLeft="13dp"
+            android:id="@+id/main_text_year"
+            android:textSize="13dp"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:textSize="13dp"
+            android:textColor="#bdc3c7"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/notebook_solution"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+           android:text="ALTERNATE SOLUTION"
+            android:layout_marginLeft="13dp"
+            android:textSize="13dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:id="@+id/notebook_alternate_solution"
+            android:layout_marginLeft="30dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        >
+
+        <Button
+            android:textSize="22dp"
+            android:layout_width="50dp"
+            android:textColor="@color/sun_flower"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="250dp"
+            android:layout_height="30dp"
+            android:text="@string/arrowdown"
+            android:id="@+id/notebook_hide_show"/>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/notebook_image"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+        <View
+            android:layout_width="200dp"
+            android:layout_marginLeft="70dp"
+            android:layout_height="0.6dp"
+            android:background="@android:color/white"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/notebook_image_add">
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

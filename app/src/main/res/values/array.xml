@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="indicator_colors">
+        <item>#27ae60</item>
+        <item>#f1c40f</item>
+        <item>#e74c3c</item>
+        <item>#3498db</item>
+    </array>
+</resources>
