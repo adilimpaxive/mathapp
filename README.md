@@ -12,6 +12,18 @@ This can be found on google playstore by "PicMatrix".
 This application is built for android platform in JAVA.
 
 ## Screenshots
+<br>
+
+<img src="https://github.com/AkhilDixit1998/PicMatrix-Android/blob/master/picmatrix%20ss/a.png" width="300" height="450">
+<span width="50px"></span>
+<img src="https://github.com/AkhilDixit1998/PicMatrix-Android/blob/master/picmatrix%20ss/b.png" width="300" height="450">
+<br>
+<img src="https://github.com/AkhilDixit1998/PicMatrix-Android/blob/master/picmatrix%20ss/crop.png" width="300" height="450">
+<br>
+<img src="https://github.com/AkhilDixit1998/PicMatrix-Android/blob/master/picmatrix%20ss/history.png" width="300" height="450">
+<br>
+<img src="https://github.com/AkhilDixit1998/PicMatrix-Android/blob/master/picmatrix%20ss/result.png" width="300" height="450">
+
 
 
 
