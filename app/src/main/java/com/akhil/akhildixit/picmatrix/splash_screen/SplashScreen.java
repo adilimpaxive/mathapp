@@ -19,7 +19,7 @@ public class SplashScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash_screen);
-        YoYo.with(Techniques.Hinge).delay(600).duration(3500).playOn(findViewById(R.id.splashScreen));
+//        YoYo.with(Techniques.Hinge).delay(600).duration(3500).playOn(findViewById(R.id.splashScreen));
         Handler handler=new Handler();
         handler.postDelayed(new Runnable() {
             @Override
